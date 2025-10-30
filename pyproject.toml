@@ -1,0 +1,13 @@
+[project]
+name = "onet-translation-mcp-server"
+version = "0.1.0"
+description = "Map natural language job titles to O*NET codes for LLM applications via an MCP server."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "engineering [@] careervillage" }]
+
+dependencies = [
+  "httpx>=0.28.1",
+  "mcp[cli]>=1.2.0",
+  "fastmcp"
+]
