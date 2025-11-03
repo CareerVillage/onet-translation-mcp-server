@@ -9,5 +9,6 @@ authors = [{ name = "engineering [@] careervillage" }]
 dependencies = [
   "httpx>=0.28.1",
   "mcp[cli]>=1.2.0",
-  "fastmcp"
+  "fastmcp",
+  "python-dotenv>=1.2.1",
 ]
